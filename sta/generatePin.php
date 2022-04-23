@@ -1,0 +1,15 @@
+<?php
+function password_generate($chars) 
+{
+  $data = '1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcefghijklmnopqrstuvwxyz';
+  return substr(str_shuffle($data), 0, $chars);
+}
+  echo password_generate(10)."\n";
+   $x=0;
+   while($x<=100){
+       echo password_generate(10)."\n";
+       $x++;
+       
+   }
+   
+?>

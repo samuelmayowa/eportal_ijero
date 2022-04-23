@@ -1,0 +1,26 @@
+DELETE c1 FROM contacts c1
+INNER JOIN contacts c2 
+WHERE
+    c1.id > c2.id AND 
+    c1.email = c2.email;
+    
+    
+    // Using Subquery to Dekete Data
+    
+    DELETE FROM contacts 
+WHERE 
+	id IN (
+	SELECT 
+		id 
+	FROM (
+		SELECT 
+			id,
+			ROW_NUMBER() OVER (
+				PARTITION BY email
+				ORDER BY email) AS row_num
+		FROM 
+			contacts
+		
+	) t
+    WHERE row_num > 1
+);

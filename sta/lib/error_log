@@ -1,0 +1,22 @@
+[07-Mar-2021 23:45:30 UTC] PHP Warning:  require_once(../functions.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/studentArea/lib/remitaPay.php on line 2
+[07-Mar-2021 23:45:30 UTC] PHP Fatal error:  require_once(): Failed opening required '../functions.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/escohsti/public_html/eportal/studentArea/lib/remitaPay.php on line 2
+[07-Mar-2021 23:46:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sha512() in /home/escohsti/public_html/eportal/studentArea/lib/testRemita.php:129
+Stack trace:
+#0 {main}
+  thrown in /home/escohsti/public_html/eportal/studentArea/lib/testRemita.php on line 129
+[08-Mar-2021 05:18:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sha512() in /home/escohsti/public_html/eportal/studentArea/lib/testRemita.php:129
+Stack trace:
+#0 {main}
+  thrown in /home/escohsti/public_html/eportal/studentArea/lib/testRemita.php on line 129
+[08-Mar-2021 05:19:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sha512() in /home/escohsti/public_html/eportal/studentArea/lib/testRemita.php:129
+Stack trace:
+#0 {main}
+  thrown in /home/escohsti/public_html/eportal/studentArea/lib/testRemita.php on line 129
+[08-Mar-2021 05:25:16 UTC] PHP Notice:  Undefined variable: email in /home/escohsti/public_html/eportal/studentArea/lib/testRemita.php on line 152
+[08-Mar-2021 05:25:16 UTC] PHP Notice:  Undefined variable: payType in /home/escohsti/public_html/eportal/studentArea/lib/testRemita.php on line 153
+[08-Mar-2021 05:30:36 UTC] PHP Notice:  Undefined variable: email in /home/escohsti/public_html/eportal/studentArea/lib/testRemita.php on line 152
+[08-Mar-2021 05:30:36 UTC] PHP Notice:  Undefined variable: payType in /home/escohsti/public_html/eportal/studentArea/lib/testRemita.php on line 153
+[08-Mar-2021 05:31:22 UTC] PHP Notice:  Undefined variable: email in /home/escohsti/public_html/eportal/studentArea/lib/testRemita.php on line 152
+[08-Mar-2021 05:31:22 UTC] PHP Notice:  Undefined variable: payType in /home/escohsti/public_html/eportal/studentArea/lib/testRemita.php on line 153
+[08-Mar-2021 05:31:49 UTC] PHP Notice:  Undefined variable: email in /home/escohsti/public_html/eportal/studentArea/lib/testRemita.php on line 152
+[08-Mar-2021 05:31:49 UTC] PHP Notice:  Undefined variable: payType in /home/escohsti/public_html/eportal/studentArea/lib/testRemita.php on line 153

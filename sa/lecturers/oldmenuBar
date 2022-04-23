@@ -1,0 +1,67 @@
+ <div id="layoutSidenav" style="background-color:#20c997;">
+            <div id="layoutSidenav_nav" style="background-color:dark; color:lavender;">
+                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion" style="background-color:##20c997;">
+                    <div class="sb-sidenav-menu" style="background-color:##20c997;">
+                        <div class="nav" style="background-color:#28a745;">
+                            <div class="sb-sidenav-menu-heading">ESCOHST-IJERO</div>
+                            <a class="nav-link" href="dashboard.php?msg=<?php echo $_GET['msg']; ?>">
+                                Admin Dashboard
+                            </a>
+                            <div class="sb-sidenav-menu-heading">Staff Area</div>
+                            <a class="nav-link collapsed" href="dashboard.php?msg=<?php echo $_GET['msg']; ?>" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Password Area
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down">Passwords</i></div>
+                            </a>
+                            <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="../passwordRest.php?msg=<?php echo $_GET['msg']; ?>">Reset Password</a>
+                                    <a class="nav-link" href="../editStaff.php?msg=<?php echo $_GET['msg']; ?>">Edit Staff</a>
+                                </nav>
+                            </div>
+                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+                                <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                               
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down">Manage Staff</i></div>
+                            </a>
+                            <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
+                                        lecturers Area
+                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                    </a>
+                                    <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                            <a class="nav-link" href="../addCourses.php?msg=<?php echo $_GET['msg']; ?>">Add New Courses</a>
+                                            <a class="nav-link" href="../editCourse.php?msg=<?php echo $_GET['msg']; ?>">Update Courses</a>
+                                            <a class="nav-link" href="../manageScore.php?msg=<?php echo $_GET['msg']; ?>">View All Courses</a>
+                                        </nav>
+                                    </div>
+                                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
+                                        Staff Manager
+                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down">Manage Staff</i></div>
+                                    </a>
+                                    <div class="collapse" id="pagesCollapseError" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                            <a class="nav-link" href="addUser.php?msg=<?php echo $_GET['msg']; ?>">Add Staff</a>
+                                            <a class="nav-link" href="editStaff.php?msg=<?php echo $_GET['msg']; ?>">Edit Staff</a>
+                                            <a class="nav-link" href="../#getAllPayments.php?msg=<?php echo $_GET['msg']; ?>">Remove Staff</a>
+                                            <a class="nav-link" href="../resetStaffPassword.php?msg=<?php echo $_GET['msg']; ?>">Reset Password</a>
+                                            <a class="nav-link" href="../addStaff.php?msg=<?php echo $_GET['msg']; ?>">Assign Role</a>
+                                            <a class="nav-link" href="../adminUsers.php?msg=<?php echo $_GET['msg']; ?>">Add to Portal</a>
+                                        </nav>
+                                    </div>
+                                </nav>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="sb-sidenav-footer" style="Background-color:#28a745;">
+                        <div class="small">Logged in as:</div>
+                        <?php if(isset($_SESSION['userID'])){
+                            echo $_SESSION['userID'];
+                        }
+                        ?>
+                    </div>
+                </nav>
+            </div>

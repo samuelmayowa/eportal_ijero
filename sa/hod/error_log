@@ -1,0 +1,69 @@
+[08-Apr-2021 10:55:29 UTC] PHP Warning:  include_once(../functions.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 2
+[08-Apr-2021 10:55:29 UTC] PHP Warning:  include_once(): Failed opening '../functions.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 2
+[08-Apr-2021 10:55:29 UTC] PHP Warning:  require_once(../connection.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 3
+[08-Apr-2021 10:55:29 UTC] PHP Fatal error:  require_once(): Failed opening required '../connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 3
+[08-Apr-2021 10:56:09 UTC] PHP Notice:  Undefined index: msg in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 105
+[08-Apr-2021 10:56:09 UTC] PHP Notice:  Undefined index: msg in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 107
+[08-Apr-2021 10:56:09 UTC] PHP Notice:  Undefined index: msg in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 109
+[08-Apr-2021 10:56:09 UTC] PHP Notice:  Undefined index: msg in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 120
+[08-Apr-2021 10:56:09 UTC] PHP Warning:  require(../close_connection.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 301
+[08-Apr-2021 10:56:09 UTC] PHP Fatal error:  require(): Failed opening required '../close_connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 301
+[08-Apr-2021 11:02:19 UTC] PHP Notice:  Undefined index: msg in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 105
+[08-Apr-2021 11:02:19 UTC] PHP Notice:  Undefined index: msg in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 107
+[08-Apr-2021 11:02:19 UTC] PHP Notice:  Undefined index: msg in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 109
+[08-Apr-2021 11:02:19 UTC] PHP Notice:  Undefined index: msg in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 120
+[08-Apr-2021 11:02:19 UTC] PHP Warning:  require(../close_connection.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 301
+[08-Apr-2021 11:02:19 UTC] PHP Fatal error:  require(): Failed opening required '../close_connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 301
+[08-Apr-2021 11:22:33 UTC] PHP Warning:  require(../close_connection.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 303
+[08-Apr-2021 11:22:33 UTC] PHP Fatal error:  require(): Failed opening required '../close_connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 303
+[08-Apr-2021 11:23:56 UTC] PHP Warning:  require(../close_connection.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 303
+[08-Apr-2021 11:23:56 UTC] PHP Fatal error:  require(): Failed opening required '../close_connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 303
+[08-Apr-2021 11:27:38 UTC] PHP Warning:  require(../close_connection.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 303
+[08-Apr-2021 11:27:38 UTC] PHP Fatal error:  require(): Failed opening required '../close_connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 303
+[08-Apr-2021 11:37:16 UTC] PHP Warning:  require(../close_connection.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 303
+[08-Apr-2021 11:37:16 UTC] PHP Fatal error:  require(): Failed opening required '../close_connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 303
+[08-Apr-2021 11:37:40 UTC] PHP Warning:  require(../close_connection.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 303
+[08-Apr-2021 11:37:40 UTC] PHP Fatal error:  require(): Failed opening required '../close_connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 303
+[08-Apr-2021 11:39:27 UTC] PHP Warning:  require(../close_connection.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 303
+[08-Apr-2021 11:39:27 UTC] PHP Fatal error:  require(): Failed opening required '../close_connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 303
+[08-Apr-2021 11:40:46 UTC] PHP Warning:  require(../close_connection.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 303
+[08-Apr-2021 11:40:46 UTC] PHP Fatal error:  require(): Failed opening required '../close_connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 303
+[08-Apr-2021 11:40:55 UTC] PHP Warning:  require(../connection.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/getStfCodes.php on line 3
+[08-Apr-2021 11:40:55 UTC] PHP Fatal error:  require(): Failed opening required '../connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/getStfCodes.php on line 3
+[08-Apr-2021 11:42:01 UTC] PHP Warning:  require(../close_connection.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 303
+[08-Apr-2021 11:42:01 UTC] PHP Fatal error:  require(): Failed opening required '../close_connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 303
+[08-Apr-2021 11:42:11 UTC] PHP Warning:  require(../connection.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/getStfCodes.php on line 3
+[08-Apr-2021 11:42:11 UTC] PHP Fatal error:  require(): Failed opening required '../connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/getStfCodes.php on line 3
+[08-Apr-2021 11:43:04 UTC] PHP Warning:  require(../close_connection.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 303
+[08-Apr-2021 11:43:04 UTC] PHP Fatal error:  require(): Failed opening required '../close_connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 303
+[08-Apr-2021 11:46:38 UTC] PHP Warning:  require(../close_connection.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 306
+[08-Apr-2021 11:46:38 UTC] PHP Fatal error:  require(): Failed opening required '../close_connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 306
+[08-Apr-2021 11:50:57 UTC] PHP Warning:  require(../close_connection.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 306
+[08-Apr-2021 11:50:57 UTC] PHP Fatal error:  require(): Failed opening required '../close_connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/adminUsers.php on line 306
+[16-Apr-2021 19:25:01 UTC] PHP Warning:  include_once(../functions.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/manageLectures.php on line 2
+[16-Apr-2021 19:25:01 UTC] PHP Warning:  include_once(): Failed opening '../functions.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/manageLectures.php on line 2
+[16-Apr-2021 19:25:01 UTC] PHP Warning:  require_once(../connection.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/manageLectures.php on line 3
+[16-Apr-2021 19:25:01 UTC] PHP Fatal error:  require_once(): Failed opening required '../connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/manageLectures.php on line 3
+[16-Apr-2021 19:26:11 UTC] PHP Warning:  include_once(../functions.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/manageLectures.php on line 2
+[16-Apr-2021 19:26:11 UTC] PHP Warning:  include_once(): Failed opening '../functions.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/manageLectures.php on line 2
+[16-Apr-2021 19:26:11 UTC] PHP Warning:  require_once(../connection.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/manageLectures.php on line 3
+[16-Apr-2021 19:26:11 UTC] PHP Fatal error:  require_once(): Failed opening required '../connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/manageLectures.php on line 3
+[16-Apr-2021 19:26:39 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function getAllCourses(), 1 passed in /home/escohsti/public_html/eportal/staffArea/hod/manageLectures.php on line 244 and exactly 3 expected in /home/escohsti/public_html/eportal/functions.php:541
+Stack trace:
+#0 /home/escohsti/public_html/eportal/staffArea/hod/manageLectures.php(244): getAllCourses(Object(mysqli))
+#1 {main}
+  thrown in /home/escohsti/public_html/eportal/functions.php on line 541
+[18-Oct-2021 15:58:04 UTC] PHP Warning:  include(sidebar.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/dashboard.php on line 100
+[18-Oct-2021 15:58:04 UTC] PHP Warning:  include(): Failed opening 'sidebar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/dashboard.php on line 100
+[18-Oct-2021 15:58:04 UTC] PHP Warning:  require(../close_connection.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/dashboard.php on line 243
+[18-Oct-2021 15:58:04 UTC] PHP Fatal error:  require(): Failed opening required '../close_connection.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/dashboard.php on line 243
+[18-Oct-2021 16:59:14 UTC] PHP Notice:  Undefined index: userID in /home/escohsti/public_html/eportal/functions.php on line 631
+[18-Oct-2021 16:59:14 UTC] PHP Notice:  Undefined index: userID in /home/escohsti/public_html/eportal/staffArea/hod/dashboard.php on line 12
+[18-Oct-2021 16:59:14 UTC] PHP Warning:  include(sidebar.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/dashboard.php on line 100
+[18-Oct-2021 16:59:14 UTC] PHP Warning:  include(): Failed opening 'sidebar.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/dashboard.php on line 100
+[18-Oct-2021 16:59:14 UTC] PHP Warning:  require(../close_connection.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/dashboard.php on line 243
+[18-Oct-2021 16:59:14 UTC] PHP Fatal error:  require(): Failed opening required '../close_connection.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/dashboard.php on line 243
+[18-Oct-2021 16:59:14 UTC] PHP Warning:  include_once(../functions.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/manageScore.php on line 2
+[18-Oct-2021 16:59:14 UTC] PHP Warning:  include_once(): Failed opening '../functions.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/manageScore.php on line 2
+[18-Oct-2021 16:59:14 UTC] PHP Warning:  require_once(../connection.php): failed to open stream: No such file or directory in /home/escohsti/public_html/eportal/staffArea/hod/manageScore.php on line 3
+[18-Oct-2021 16:59:14 UTC] PHP Fatal error:  require_once(): Failed opening required '../connection.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/escohsti/public_html/eportal/staffArea/hod/manageScore.php on line 3

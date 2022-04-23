@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Example 2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="jquery.stateLga.js"></script>
+    <script src="jquery.ucfirst.js"></script>
+  </head>
+  <body>
+    <h1>List all states, and switches local government to that of selected state</h1>
+
+	States: 
+	<select id="states">
+	</select>
+
+	LGAs: 
+	<select id="lgas">
+	</select>
+	
+<script>	
+var option = '';
+
+var states=$.nigeria.states();
+for (var i=0;i<states.length;i++){
+   option += '<option value="'+ states[i] + '">' + $.ucfirst(states[i]) + '</option>';
+}
+$('#states').append(option).on('change',function() {
+
+var option = '';
+option += '<option value="">Local government</option>';
+
+var lgas=eval('$.nigeria.'+this.value);
+
+for (var i=0;i<lgas.length;i++){
+   option += '<option value="'+ lgas[i] + '">' + $.ucfirst(lgas[i]) + '</option>';
+}
+
+$('#lgas').find('option')
+    .remove()
+    .end().append(option);
+
+}).trigger('change');
+
+</script>
+	
+  </body>
+</html>
